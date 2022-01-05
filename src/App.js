@@ -69,7 +69,7 @@ function App() {
                 <label className="my-4" htmlFor='title'>Title<input type="text" id="title" placeholder="Enter Title" name="title" className='form-control' onChange={getval} /></label>
 
                 <label className="my-4" htmlFor='content'>Content<textarea type="text" id="content" placeholder="Enter Content" className='form-control' name="content" onChange={getval} /></label>
-                <input type="submit" className='btn btn-primary'></input>
+                <input type="submit" className='btn btn-warning'></input>
               </form>
 
             </div>
