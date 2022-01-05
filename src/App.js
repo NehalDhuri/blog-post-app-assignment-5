@@ -65,7 +65,7 @@ function App() {
             </div>
             <div class="modal-body">
               <form onSubmit={formsubmit} className='form'>
-                <label className="my-4" htmlFor='author'>Author Name<input type="text" id="author" placeholder="Enter Author name" name="author" className='form-control' onChange={getval} /></label>
+                <label className="mb-4" htmlFor='author'>Author Name<input type="text" id="author" placeholder="Enter Author name" name="author" className='form-control' onChange={getval} /></label>
                 <label className="my-4" htmlFor='title'>Title<input type="text" id="title" placeholder="Enter Title" name="title" className='form-control' onChange={getval} /></label>
 
                 <label className="my-4" htmlFor='content'>Content<textarea type="text" id="content" placeholder="Enter Content" className='form-control' name="content" onChange={getval} /></label>
